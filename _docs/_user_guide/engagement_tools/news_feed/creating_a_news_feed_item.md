@@ -16,59 +16,6 @@ First you must choose the type of News Feed item you want to send down to your u
 
 ![Newsfeed1][1]
 
-### News Feed Card Specifications
-
-#### News Feed Cards
-
-![Classic Card][2]
-
-Standard news feed cards consist of:
-
-- 110x110 image
-- Title
-- Body Text
-- Link (In-App/Web)
-
-#### Captioned Image Cards
-
-![Captioned Image][3]
-
-Captioned Image cards consist of:
-
-- 600x450 image
-- Title
-- Body Text
-- Link (In-App/Web)
-
-#### Banner Cards
-
-![NewsFeedBanner][4]
-
-Banner cards consist of:
-
-- 600x100 image
-- Link (In-App/Web)
-
-#### Cross Promotions Cards
-
-![CrossPromo][5]
-
-Cross promotion cards allow you to showcase another app that's in the app store. Note that you may not advertise apps which are the property of companies other than your own.
-
-
-#### Image guidelines
-
-|          Card type         |          Aspect Ratio         | Recommended Image Size | Maximum Image Size |   File Types  |
-|:-----------------------------:|:----------------------:|:------------------:|:-------------:|
-|          Classic         | 1:1 (110 pixels wide minimum) |          500KB         |         1MB        | PNG, JPG, GIF |
-|          Captioned image         | 4:3 (600 pixels wide minimum) |          500KB         |         1MB        | PNG, JPG, GIF |
-|          Banner         | 6:1 (600 pixels wide minimum) |          500KB         |         1MB        | PNG, JPG, GIF |
-
-- PNG files are recommended.
-- A custom image loading library is required in order to display Gifs on Android. We recommend Glide.
-- Smaller, high quality images will load faster, so it’s recommended to use the smallest asset possible to achieve your desired output.
-
-
 ## Step 2: Add a Title, Summary, Image, and Links
 
 ![News Feed Title Summary][6]
