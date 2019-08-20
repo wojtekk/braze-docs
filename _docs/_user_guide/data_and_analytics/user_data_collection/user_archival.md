@@ -10,6 +10,7 @@ page_order: 2
 
 - Cannot be sent email. For example, they do not have an email address or they are unsubscribed from all email lists.
 - Cannot be sent push. For example, they have uninstalled the app or disabled push permissions.
+- Cannot be sent SMS. For example, they do not have a phone number.
 - Have not used any mobile app or visited a website in an app group in more than six months.
 - Have not received any messages from an app group in more than six months.
 - Braze has not processed any data points for this user profile in more than six months.
